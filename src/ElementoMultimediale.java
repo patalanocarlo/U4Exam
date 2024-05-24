@@ -3,5 +3,5 @@ public abstract class ElementoMultimediale {
     public ElementoMultimediale( String Titolo){
         this.Titolo = Titolo;
     }
-    public abstract void esegui()
+    public abstract void esegui();
 }

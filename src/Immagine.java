@@ -9,6 +9,10 @@ public class Immagine extends ElementoMultimediale {
         luminosità++;
     }
     public void  diminuisciLuminosità(){
-        luminosità--;
+      if (luminosità > 0) luminosità--;
+    }
+    @Override
+    public void esegui(){
+        System.out.println(Titolo + " " + "*".repeat(luminosità));
     }
 }
