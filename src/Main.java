@@ -23,6 +23,7 @@ public class Main {
                 int volume = value.nextInt();
                 elementi[i] = new Audio(TitoloDelelementoScelto, durata, volume);
             }else if (tipoElementoScelto == 3) {
+                System.out.println("Vedo che hai scelto il Video.");
                 System.out.println("Inserisci la durata: ");
                 int durata = value.nextInt();
                 System.out.println("Inserisci il volume: ");
